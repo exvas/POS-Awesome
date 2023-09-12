@@ -145,7 +145,7 @@ def get_items(pos_profile, price_list=None):
             has_serial_no,
             max_discount,
             brand,
-            oem_part_number,
+            custom_oem_part_number,
             last_purchase_rate as item_last_purchase_rate
         FROM
             `tabItem`
